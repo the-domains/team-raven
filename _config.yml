@@ -1,0 +1,28 @@
+name: Team Raven
+favicon: null
+layout_spectrum: 0.19979245960712433
+typography_spectrum: 0.7127581660170108
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#B8B42D'
+    - '#697A21'
+    - '#FFFCE8'
+    - '#3E363F'
+    - '#DD403A'
+  brandStrength: 0.19668064638972282
+  lightness: 0.9593777225818485
+  saturation: 0.5469062232878059
+  rhythmicContrast: 0.8720128296408802
+purpose: []
