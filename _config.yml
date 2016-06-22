@@ -1,28 +1,40 @@
-name: Team Raven
 favicon: null
-layout_spectrum: 0.19979245960712433
-typography_spectrum: 0.7127581660170108
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Team Raven
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  brandStrength: 0.19668064638972282
-  lightness: 0.9593777225818485
-  saturation: 0.5469062232878059
-  rhythmicContrast: 0.8720128296408802
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 1
+  brandStrength: 1
+  lightness: 1
+  brandColors:
+    - '#8A7A60'
+    - '#6D6C4E'
+    - '#A18C6F'
+    - '#C3B296'
+    - '#4F453B'
+  rhythmicContrast: 1
+typography_spectrum: 0
+layout_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
